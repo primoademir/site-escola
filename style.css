@@ -2,7 +2,42 @@
     margin: 0;
     padding: 10; 
 }
-header{
+.cabecalho {
     background-color: blue;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding: 24px 0;
 }
 
+.imagem{
+    width: 20%;
+}
+
+.escola-lista{
+    display: inline-block;
+    margin: 0 16px;
+    padding: 24px 0;
+}
+
+.escola-imagem{
+    width: 25%;
+}
+
+.escola{
+    background-image: linear-gradient(#383d58,#00c0ed);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.escola-conteudo{
+    width: 35%;
+
+}
+
+.escola-titulo{
+    padding: 24px 0;
+}
